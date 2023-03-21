@@ -1,0 +1,94 @@
+
+
+.logo{
+    padding-left: 50px;
+}
+.email{
+    color:black !important;
+    padding:50px !important;
+}
+.email:hover{
+    color:red !important;
+}
+.phonenumber{
+    color:black!important;
+    padding-left:50px!important;
+}
+.phonenumber:hover{
+color:red !important;
+}
+.menu{
+    float:right;
+    list-style-type:none;
+
+}
+li{
+    display:inline;
+    padding: 5px;
+}
+
+li>a{
+    text-decoration:none;
+    color:black;
+    background-color:white;
+
+}
+li>a:hover{
+    color:red;
+    text-decoration:underline;
+}
+.services{
+    position: relative;
+
+}
+.services:hover>.submenu{
+    display: block;
+    
+
+}
+
+.submenu{
+    position: absolute;
+    top:90%;
+    left:0;
+    display:none;
+    width:150px;
+    padding-left:0;
+    background-color: white;
+   
+}
+.submenu>li{
+    display: block;
+    background-color:white;
+
+}
+.container-1{
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3%;
+    padding:5%;
+    line-height:1.5;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.container-1>img{
+    float:left;
+    margin-right:10%;
+}
+
+.container-2{
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+    padding:5%;
+    line-height:1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container-2>img{
+    float:right;
+    
+
+}
+
